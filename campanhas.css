@@ -1,7 +1,15 @@
 body {
-    flex-direction: column;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
 }
+
+
 
 a {
     text-decoration: none;
@@ -9,39 +17,21 @@ a {
 }
 
 
-h5 {
-    background-color: orange;
-}
-
-p {
-    text-align: justify;
-}
-
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
-}
-
 header {
     background-color: #f8ca76;
     padding: 20px;
 }
 
-main {
-    padding: 20px;
-}
+
 
 footer {
     background-color: orange;
 }
 
-#main {
-    flex: 1 1 0;
+main {
+    padding: 50px;
 }
 
-
-#main-animais p img {
-    padding-left: 135px; 
-}
 
 
 
@@ -54,13 +44,22 @@ footer {
         box-sizing: border-box;
     }
 
+    #menu-h p {
+        max-width: 420px;
+        list-style-type: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        padding: 10px;
+    }
+
     #menu-h ul {
-        max-width: 550px;
+        max-width: 420px;
         list-style-type: none;
         padding: 0px;
         background-color: orange;
         border-radius: 100px;
-        
+
     }
 
     #menu-h ul li {
@@ -69,9 +68,9 @@ footer {
 
     #menu-h ul li img {
         padding: 0px;
-        width: 60px;
+        width: 63px;
         max-width: 100%;
-        height: 60px;
+        height: 63px;
 
     }
 
@@ -96,17 +95,11 @@ footer {
         float: left;
     }
 
-    #main p img {
-        width: 800px;
-        height: 600px;
-        display: flex;
-        padding-left: auto; 
-        box-shadow: 0px 15px 10px gray;
-    }
+
 
     #div_menu {
         display: flex;
-        align-items: center;
+        align-items: self-end;
     }
 
 
@@ -123,6 +116,40 @@ footer {
         width: 100px;
         padding: 5px;
     }
+
+    #carouselExampleIndicators {
+        width: 900px;
+        height: 685px;
+        margin: auto;
+        box-shadow: 0px 15px 10px gray;
+        background-color: orange;
+    }
+
+    .carousel-inner {}
+
+    .carousel-item {
+        width: 900px;
+        height: 700px;
+        text-align: center;
+        box-shadow: 0px 15px 10px gray;
+    }
+
+    .row {
+        width: 900px;
+        height: 700px;
+        display: flex;
+        padding-right: 470px;
+    }
+
+    .carousel-indicators li {
+        background-color: black;
+        padding: 2px;
+    }
+
+    .carousel-indicators .active {
+        background-color: white;
+        padding: 2px;
+    }
 }
 
 
@@ -137,7 +164,7 @@ footer {
     }
 
     #menu-h ul {
-        max-width: 370px;
+        max-width: 280px;
         list-style-type: none;
         padding: 0px;
         background-color: orange;
@@ -194,11 +221,61 @@ footer {
         padding: 5px;
     }
 
-    #main p img {
-        width: 400px;
-        height: 310px;
-        display: flex;
-        padding-left: auto; 
+
+
+    #carouselExampleIndicators {
+        width: 410px;
+        height: 315px;
+        margin: auto;
+        box-shadow: 0px 15px 10px gray;
+        background-color: orange;
+    }
+
+    .carousel-inner {}
+
+    .carousel-item {
+        width: 410px;
+        height: 320px;
+        text-align: center;
         box-shadow: 0px 15px 10px gray;
     }
+
+    .row {
+        width: 410px;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-indicators li {
+        background-color: black;
+        padding: 1px;
+    }
+
+    .carousel-indicators .active {
+        background-color: white;
+        padding: 1px;
+    }
+
+    .carousel-indicators {
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 70px;
+    width: 70px;
+    background-size: 100%, 100%;
+
 }
