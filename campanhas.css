@@ -181,7 +181,7 @@ main {
 
 
 
-@media (max-width: 528px) {
+@media (max-width: 480px) {
     * {
         text-align: right;
         margin: 0 auto;
