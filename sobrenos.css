@@ -59,13 +59,16 @@ footer {
 
 main {
     padding: 50px;
-
+    
 }
 
-
-
 @media (max-width: 1920px) {
-
+    * {
+        text-align: right;
+        margin: 0 auto;
+        padding: 0;
+        
+    }
 
     #menu-h p {
         max-width: 420px;
@@ -139,57 +142,81 @@ main {
         width: 100px;
         padding: 5px;
     }
-
-    #carouselExampleIndicators {
-        width: 900px;
-        height: 685px;
-        margin: auto;
-        box-shadow: 0px 15px 10px gray;
-        background-color: #FA9449;
+    .Links {
+        padding: 10px;
     }
-
-    .carousel-item {
-        width: 900px;
-        height: 700px;
-        text-align: center;
-        box-shadow: 0px 15px 10px gray;
-    }
-
-    .row {
-        width: 900px;
-        height: 700px;
+    .Links h1{
+        margin-top: 50px;
         display: flex;
-        padding-right: 470px;
+        text-align: center;
+        justify-content: center;
     }
-
-    .carousel-indicators li {
-        background-color: black;
-        padding: 2px;
+    .social {
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
-
-    .carousel-indicators .active {
-        background-color: white;
-        padding: 2px;
+    .social img {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: auto;
+        height: 50px;
+        margin: 50px;
+        margin-bottom: 0px;
     }
-
-    .container {
-        padding-right: 770px;
+    .time{
+        display: flex;
+        margin: auto;
     }
-}
-
-
-
-
-@media screen and (max-width: 500px) {
-
-    main {
-        padding-right: 250px;
-        height: 80vh;
+    .time img{
+        border: 10px solid orange;
         width: 100%;
+        height: 90%;
     }
+    .texto{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        font-size: 17px;
+    }
+    .subtitulo h3{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .subtitulo h5{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 500px) {
 
     
 
+    main {
+        padding: 20px;
+        height: auto;
+        width: 100%;
+    }
+
+    .social {
+        
+    }
+
+    .social a {
+        padding-top: 10px;
+        width: 130px;
+        height: 40px;
+    }
+
+    .social a img {
+        width: 130px;
+        padding-left: 20px;
+    }
+    
 
     #menu-h ul {
         max-width: 280px;
@@ -234,7 +261,58 @@ main {
         align-items: center;
     }
 
-
+    .container {
+        margin: auto;
+        padding: 0px;
+        
+    }
+    .Links h1{
+        margin-top: 50px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .social {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .social img {
+        display: flex;
+        width:  160%;
+        height: 80%;
+        margin: 10px 0;
+        margin-left: -20px;
+    }
+    .instagram{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .time{
+        display: flex;
+        margin: auto;
+    }
+    .time img{
+        border: 5px solid orange;
+        width: 100%;
+        height: 100%;
+    }
+    .texto{
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        justify-content: center;
+    }
+    .subtitulo h3{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .subtitulo h5{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
     #footer {
         background-color: #FA9449;
     }
@@ -248,66 +326,4 @@ main {
         width: 80px;
         padding: 5px;
     }
-
-
-
-    #carouselExampleIndicators {
-        width: 370px;
-        height: 290px;
-        margin: auto;
-        box-shadow: 0px 15px 10px gray;
-        background-color: #FA9449;
-    }
-
-
-    .carousel-item {
-        width: 370px;
-        height: 290px;
-        text-align: center;
-        box-shadow: 0px 15px 10px gray;
-    }
-
-    .carousel-item a img {
-        width: 210px;
-    }
-
-
-
-    .carousel-indicators li {
-        background-color: black;
-        padding: 1px;
-    }
-
-    .carousel-indicators .active {
-        background-color: white;
-        padding: 1px;
-    }
-
-    .carousel-indicators {
-        margin: auto;
-        justify-content: center;
-    }
-
-    .container {
-        margin: auto;
-        padding: 0px;
-
-    }
-}
-
-
-
-
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 10%;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    height: 70px;
-    width: 70px;
-    background-size: 100%, 100%;
-
 }
