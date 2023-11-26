@@ -70,6 +70,8 @@ main {
         
     }
 
+    
+
     #menu-h p {
         max-width: 420px;
         list-style-type: none;
@@ -176,8 +178,9 @@ main {
     }
     .texto{
         width: 100%;
-        text-align: center;
+        text-align: justify;
         justify-content: center;
+        line-height: 30px;
         font-size: 17px;
     }
     .subtitulo h3{
@@ -206,13 +209,13 @@ main {
 
     .social a {
         padding-top: 10px;
-        width: 130px;
+        width: 120px;
         height: 40px;
+        padding-left: 20px;
     }
 
     .social a img {
-        width: 130px;
-        padding-left: 20px;
+        width: 120px;
     }
     
 
@@ -298,8 +301,9 @@ main {
     .texto{
         width: 100%;
         font-size: 14px;
-        text-align: center;
+        text-align: justify;
         justify-content: center;
+        line-height: 25px;
     }
     .subtitulo h3{
         display: flex;
