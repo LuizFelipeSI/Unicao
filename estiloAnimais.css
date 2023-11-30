@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Chewy';
-    src: url('/Chewy/Chewy-Regular.ttf') format('truetype');
+    src: url('Chewy/Chewy-Regular.ttf') format('truetype');
 }
 
 * {
@@ -360,7 +360,6 @@ a.btn  {
         width: 45px;
         max-width: 100%;
         height: 45px;
-
     }
 
     #menu-h ul li a {
