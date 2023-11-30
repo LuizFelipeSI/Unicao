@@ -59,18 +59,24 @@ footer {
 
 main {
     padding: 50px;
-    
+
 }
+
+#menu-h ul li a.active {
+    color: #FFF;
+}
+
+
 
 @media (max-width: 1920px) {
     * {
         text-align: right;
         margin: 0 auto;
         padding: 0;
-        
+
     }
 
-    
+
 
     #menu-h p {
         max-width: 420px;
@@ -123,6 +129,8 @@ main {
         float: left;
     }
 
+    
+
 
 
     #div_menu {
@@ -144,20 +152,24 @@ main {
         width: 100px;
         padding: 5px;
     }
+
     .Links {
         padding: 10px;
     }
-    .Links h1{
+
+    .Links h1 {
         margin-top: 50px;
         display: flex;
         text-align: center;
         justify-content: center;
     }
+
     .social {
         display: flex;
         text-align: center;
         justify-content: center;
     }
+
     .social img {
         display: flex;
         text-align: center;
@@ -167,37 +179,43 @@ main {
         margin: 50px;
         margin-bottom: 0px;
     }
-    .time{
+
+    .time {
         display: flex;
         margin: auto;
     }
-    .time img{
+
+    .time img {
         border: 10px solid orange;
         width: 100%;
         height: 90%;
     }
-    .texto{
+
+    .texto {
         width: 100%;
         text-align: justify;
         justify-content: center;
         line-height: 30px;
         font-size: 17px;
     }
-    .subtitulo h3{
+
+    .subtitulo h3 {
         display: flex;
         text-align: center;
         justify-content: center;
     }
-    .subtitulo h5{
+
+    .subtitulo h5 {
         display: flex;
         text-align: center;
         justify-content: center;
     }
-    
+
 }
+
 @media screen and (max-width: 500px) {
 
-    
+
 
     main {
         padding: 20px;
@@ -205,7 +223,7 @@ main {
         width: 100%;
     }
 
-    
+
 
     .social a {
         padding-top: 10px;
@@ -217,7 +235,7 @@ main {
     .social a img {
         width: 100px;
     }
-    
+
 
     #menu-h ul {
         max-width: 280px;
@@ -265,56 +283,66 @@ main {
     .container {
         margin: auto;
         padding: 0px;
-        
+
     }
-    .Links h1{
+
+    .Links h1 {
         margin-top: 50px;
         display: flex;
         text-align: center;
         justify-content: center;
     }
+
     .social {
         display: flex;
         text-align: center;
         justify-content: center;
     }
+
     .social img {
         display: flex;
-        width:  160%;
+        width: 160%;
         height: 80%;
         margin: 10px 0;
         margin-left: -20px;
     }
-    .instagram{
+
+    .instagram {
         margin-left: 50px;
         margin-right: 50px;
     }
-    .time{
+
+    .time {
         display: flex;
         margin: auto;
     }
-    .time img{
+
+    .time img {
         border: 5px solid orange;
         width: 100%;
         height: 100%;
     }
-    .texto{
+
+    .texto {
         width: 100%;
         font-size: 14px;
         text-align: justify;
         justify-content: center;
         line-height: 25px;
     }
-    .subtitulo h3{
+
+    .subtitulo h3 {
         display: flex;
         text-align: center;
         justify-content: center;
     }
-    .subtitulo h5{
+
+    .subtitulo h5 {
         display: flex;
         text-align: center;
         justify-content: center;
     }
+
     #footer {
         background-color: #FA9449;
     }
