@@ -14,16 +14,23 @@
 }
 
 body {
-    flex-direction: column;
+    background-color: white;
     margin: 0;
     padding: 0;
-    font-family: Chewy !important;
+    width: 100%;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Chewy !important;
+}
+
+body main {
     flex: 1 1 0;
     border: 0;
 }
+
 
 header {
     background-color: #f8ca76;
@@ -42,14 +49,14 @@ header p {
 footer {
     background-color: orange;
     width: 100%;
+    bottom: 0;
+    
 }
 
 main {
     padding: 50px;
 
 }
-
-/* Matheus- Comecei */
 
 .dogs {
     margin-bottom: 10px;
@@ -93,10 +100,11 @@ main {
 
 .container h2 {
     color: #FFF;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }
 
 .container p {
@@ -105,6 +113,7 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }
 
 a.btn  {
@@ -263,14 +272,6 @@ a.btn  {
         justify-content: center;
     }
 
-    section .container{
-        height: 597px;
-    }
-
-    footer {
-        margin-top: 4900px; /* Ou ajuste conforme necessário */
-    }
-
     #main p img {
         width: 800px;
         height: 600px;
@@ -392,9 +393,7 @@ a.btn  {
         justify-content: center;
     }
 
-    footer {
-        margin-top: 8700px; /* Ou ajuste conforme necessário */
-    }
+    
 
     #footer div img {
         width: 800px;
